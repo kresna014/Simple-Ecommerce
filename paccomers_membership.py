@@ -1,18 +1,4 @@
 """
-PacCommers ingin memprediksi tier membership (Platinum, Gold, Silver) untuk user berdasarkan:
-
-Monthly expense (pengeluaran bulanan)
-
-Monthly income (pendapatan bulanan)
-
-Metode yang digunakan adalah Euclidean Distance untuk menghitung jarak antara data user dengan parameter masing-masing membership.
-
-"""
-
-import math
-from tabulate import tabulate
-
-"""
 pakai tabulate untuk menampilkan tabel
 
 class PacCommersMembership memiliki atribut:
@@ -31,10 +17,8 @@ Rumus: √((expense_user - expense_membership)² + (income_user - income_members
 Memilih membership dengan jarak terdekat
 
 calculate_price() : menghitung total harga setelah diskon berdasarkan membership
+
 """
-
-
-
 import math
 from tabulate import tabulate
 
